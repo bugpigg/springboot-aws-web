@@ -2,7 +2,7 @@
 
 - 이동욱님의 `스프링 부트와 AWS 로 혼자 구현하는 웹서비스` 를 보며 따라해본 코드를 저장하는 Repo 입니다.
 <p align="center">
-  <img src="./BookCover.png"  width=45% height=45% >
+  <img src="./BookCover.png" width="20%">
 </p>
 
 ---

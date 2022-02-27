@@ -9,7 +9,7 @@ import javax.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
-@RequiredArgsConstructor
+@RequiredArgsConstructor // 생성자로 Bean 주입받기
 @Service
 public class PostsService {
 

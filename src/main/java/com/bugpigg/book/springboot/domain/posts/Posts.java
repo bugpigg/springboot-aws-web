@@ -1,5 +1,6 @@
 package com.bugpigg.book.springboot.domain.posts;
 
+import com.bugpigg.book.springboot.domain.BaseTimeEntity;
 import javax.persistence.Column;
 import javax.persistence.GenerationType;
 import lombok.Builder;
@@ -13,7 +14,7 @@ import javax.persistence.Id;
 @Getter
 @NoArgsConstructor // 기본 생성자 자동 추가
 @Entity // 테이블과 링크될 클래스임을 나타낸다.
-public class Posts {
+public class Posts extends BaseTimeEntity {
     @Id // 해당 테이블의 PK 테이블이다.
     @GeneratedValue(strategy = GenerationType.IDENTITY) // PK의 생성 규칙이다.
     private Long id;

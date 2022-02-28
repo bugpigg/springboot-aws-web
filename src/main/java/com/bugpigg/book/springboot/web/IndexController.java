@@ -10,4 +10,9 @@ public class IndexController {
     public String index() {
         return "index"; // 앞의 경로와, 뒤의 확장자는 자동으로 지정된다
     }
+
+    @GetMapping("/posts/save")
+    public String postsSave() {
+        return "posts-save";
+    }
 }
